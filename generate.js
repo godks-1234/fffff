@@ -40,7 +40,6 @@ export default async function handler(req, res) {
               type: "ARRAY",
               description: "향후 러닝 시간대별 권장 행동 지침 리스트",
               items: {
-                type: "OBJECT",
                 properties: {
                   time: { type: "STRING", description: "예: '0~10분', '10~20분' 등" },
                   action: { type: "STRING", description: "해당 시간대에 유지할 페이스 및 주의사항" }
