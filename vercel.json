@@ -1,8 +1,6 @@
 {
-  "name": "my-running-safeguard",
-  "version": "1.0.0",
-  "type": "module",
-  "dependencies": {
-    "@google/genai": "^0.1.1"
-  }
+  "version": 2,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
